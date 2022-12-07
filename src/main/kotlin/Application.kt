@@ -6,6 +6,6 @@ class Application: App(MainView::class){
         super.start(stage)
         stage.width = 800.0
         stage.height = 800.0
-//        stage.scene.stylesheets.add("index.css")
+        stage.scene.stylesheets.add("index.css")
     }
 }
